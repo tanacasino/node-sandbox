@@ -1,8 +1,8 @@
 {
-  "name": "node-vm2",
+  "name": "node-sandbox",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "vm2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
