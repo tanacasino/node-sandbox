@@ -15,6 +15,23 @@ log.info(message);
 log.info(x);
 x = "y";
 log.info(x);
+try {
+  y
+} catch (e) {
+  log.info(e);
+}
+
+const params = {
+  a: "A",
+  b: "B",
+  c: {
+    c1: "C1"
+  }
+}
+
+log.info(params);
+log.info(JSON.stringify(params));
+
 `
 
 const sandbox = {
@@ -26,7 +43,6 @@ const sandbox = {
 
 const vm = new NodeVM({
   console: 'disabled',
-  console: 'inherit',
   sandbox: sandbox,
   require: {
     external: false,
