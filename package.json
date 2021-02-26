@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "isolated-vm": "^3.3.10",
     "vm2": "^3.9.2"
   }
 }
